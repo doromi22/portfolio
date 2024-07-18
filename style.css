@@ -117,6 +117,7 @@ img {
 .toggle-btn {
     background-color: #48484b;
     color: #e9e9eb;
+    padding: 5px 10px;
 }
 
 .projecttitle {
