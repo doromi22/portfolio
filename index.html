@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCMポートフォリオ</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>💻パクチャンミンのポートフォリオ</h1>
+            <p>ご覧いただきありがとうございます！</p>
+        </div>
+    
+        <div class="profile">
+            <div class="profilepicture-div">
+                <picture class="profilepicture">
+                    <source srcset="images/profilepicture.png" type="image/png">
+                    <img src="images/profilepicture.png">
+                </picture>
+            </div>
+    
+            <div class="profileinfo">
+                <p class="name">
+                    PARK CHANGMIN
+                </p>
+    
+                <p class="birthday">
+                    2000年6月8日生まれ
+                </p>
+    
+                <p class="email">
+                    📬Email<br>
+                    parkchan@ymail.ne.jp
+                </p>
+    
+                <p class="github">
+                    🐱Github<br>
+                    <a href="https://github.com/doromi22" target="_blank">https://github.com/doromi22</a>
+                </p>
+            </div>
+        </div>
+        <div class="ambitions">
+            <p class="wakaba">🔰Junior Web Developer</p>
+            <ul class="catchcopies">
+                <li>「役に立つ」ものを作ります。</li>
+                <li>「無駄な繰り返し」を減らします。</li>
+                <li>「向上心」を持って勉強します。</li>
+            </ul>
+        </div>
+    
+        <div class="stacks section">
+            <button class="toggle-btn" onclick="toggleSection('stacks')">📚技術スタック ▶</button>
+            <ul class="stackslist" style="display: none;">
+                <img src="images/laravel.png" class="stack-img">
+                <li class="php">
+                    <p>PHPでバックエンドのコード作成ができます。Laravelでのオンラインメモアプリの開発経験があります。</p>
+                </li>
+
+                <img src="images/nodejs.png" class="stack-img">
+                <li class="javascript">
+                    <p>ES6の文法を使用しています。NodeJSでの漫画の共有・評価ができるサイトの開発をしました。</p>
+                </li>
+
+                <img src="images/html.png" class="stack-img">
+                <li class="markup">
+                    <p>Web標準を守るように努力しています。基礎レベルのWebサイトのデザインができます。</p>
+                </li>
+                
+                <img src="images/git.png" class="stack-img lastimg">
+                <li class="git">
+                    <p>Gitでプロジェクトを管理しています。今まで作成したコードはすべてGithubにてアップロードしています。</p>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="projects section">
+            <button class="toggle-btn" onclick="toggleSection('projects')">💾プロジェクト ▶</button>
+            <div class="projectslist" style="display: none;">
+                <div class="project">
+                    <a href="https://github.com/doromi22/myfirstwebsite" target="_blank">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <p class="projecttitle">自己紹介サイト</p>
+                                <p class="description">純粋なHTML, CSSで作成されている自己紹介のサイトです。私の簡単な情報が記載されています。</p>
+                                <p class="clicktogo">クリックしてGithubに移動</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/doromi22/notepadonline2" target="_blank">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <p class="projecttitle">オンラインメモサイト</p>
+                                <p class="description">サイトにログインすることで、他人には見られない個人的なメモの管理ができます。Laravelというフレームワークを使用し、セキュリティーを補強しました。</p>
+                                <p class="clicktogo">クリックしてGithubに移動</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/doromi22/MIMO" target="_blank">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <p class="projecttitle">漫画共有サイト</p>
+                                <p class="description">所属しているマンガ学科での漫画・イラストの共有プロセスにて「異なるフラットフォームを交互に使わないといけない」という問題発見！共有のプロセスをWebアプリ一つでまとめたサイト</p>
+                                <p class="clicktogo">クリックしてGithubに移動</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/DoonOnthon/GamePulse" target="_blank">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <p class="projecttitle">ゲームデータベースサイト</p>
+                                <p class="description">Notepad Onlineを作りながら手に入れたPHPの知識を活かし、GitHubに助けを必要としているプロジェクトに参加し、プロジェクトの検索機能の改善に寄与しました。</p>
+                                <p class="clicktogo">クリックしてGithubに移動</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="educational-bg section">
+            <button class="toggle-btn" onclick="toggleSection('educational-bg')">🏫学歴 ▶</button>
+            <div class="educational-bglist" style="display: none;">
+                <a href="https://www.kyoto-art.ac.jp" target="_blank">
+                    <picture class="univpicture">
+                        <source srcset="images/univ.jpg" type="image/jpg">
+                        <img src="images/univ.jpg">
+                    </picture>
+                </a>
+                <p class="univname">京都芸術大学 芸術学部 マンガ学科</p>
+                <p class="graduation">2020.04. ~ 2026.03. (卒業見込)</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

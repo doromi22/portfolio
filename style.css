@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: rgb(219, 220, 223);
+    font-family: Arial, sans-serif; 
+    background-color: #111111; 
+}
+
+.github a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; 
+    background-color: rgb(42, 41, 43); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.profilepicture-div {
+    padding-right: 25px;
+    border-right: 1px dotted gray;
+}
+
+.profilepicture img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.univpicture img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.educational-bglist {
+    padding-top: 10px;
+}
+
+.profileinfo {
+    flex-grow: 1;
+    padding-left: 25px; /* Distance between picture and info */
+    line-height: 150%;    
+}
+
+img {
+    width: 100%;
+    display: block; /* Remove extra space below the image */
+}
+
+.stacks {
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
+.projects {
+    padding-bottom: 6px;
+}
+
+.stack-img {
+    max-width: 70px;
+    padding-top: 20px;
+}
+
+.git {
+    padding-bottom: 10px;
+}
+
+.phpimage {
+    display: flex;
+}
+
+.project {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #262627;
+}
+
+.project a {
+    text-decoration: none;
+    color: rgb(190, 191, 194);
+}
+
+.github-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.project-info {
+    flex-grow: 1;
+}
+
+.clicktogo {
+    font-size: 0.8em;
+    color: #555;
+    text-align: end;
+}
+
+.toggle-btn {
+    background-color: #48484b;
+    color: #e9e9eb;
+}
+
+.projecttitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.univname {
+    font-weight: bold;
+}
+
+.graduation {
+    color: #979797;
+}
